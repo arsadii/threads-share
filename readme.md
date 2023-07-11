@@ -1,11 +1,12 @@
 # Threads Share - TailwindCSS
 
-![Hasil](src\result.jpg)
+![Hasil](src/result.jpg)
 
 ### Jika ingin customisasi
 
-1. Pastikan teman teman punya `NodeJS` di laptop.
-2. Jika tidak punya `NodeJS`, teman teman harus mengganti code dibawah ini :
+#### 1. Jika tidak memiliki NodeJS di laptop
+
+Teman-teman harus mengganti code dibawah ini :
 
 ```html
 <!DOCTYPE html>
@@ -26,19 +27,21 @@
 </html>
 ```
 
-3. Jika memiliki `NodeJS`, silahkan jalankan code berikut di terminal :
+#### 2. Jika memiliki NodeJS
+
+1. silahkan jalankan code berikut di terminal :
 
 ```bash
     npm install
 ```
 
-4. Jika sudah selesai, jalankan lagi code berikut di terminal untuk generate css yang teman teman tulis :
+2. Jika sudah selesai, jalankan lagi code berikut di terminal untuk generate css yang teman teman tulis :
 
 ```bash
 npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
 ```
 
-5. Tetap biarkan code nya jalan seperti dibawah ini :
-   ![terminal](src\ss.png)
+3. Tetap biarkan code nya jalan seperti dibawah ini :
+   ![terminal](src/ss.png)
 
 ### Happy Coding 👋
